@@ -1,3 +1,2 @@
 # mysite
-Angularjs app
-This can be downloaded as zip and viewed using mozilla firefox.
+This angularjs app can be downloaded as zip file and viewed using mozilla firefox.
