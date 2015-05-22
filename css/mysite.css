@@ -1,0 +1,120 @@
+html,
+body {
+    height: 100%;
+}
+#about {
+   background: #CCFFCC;
+   padding-top: 96px;
+   padding-left: 40px;
+   padding-bottom: 20px;
+   overflow: hidden;
+   color:#006600;
+}
+#myCarousel h1 {
+    margin-bottom: 25px;
+    font-family: "Droid Serif","Helvetica Neue",Helvetica,Arial,sans-serif;
+    font-size: 50px;
+    font-style: italic;
+    line-height: 22px;
+}
+#about p, #int,#contact p,#contact.container p, #edu p {
+   line-height: 30px;
+   font-size: 20px;
+}
+h2 {
+   font: 50px/60px 'opensans-bold', sans-serif;
+   color: #003300;
+   margin-bottom: 12px;
+}
+#about h2{
+	color:#006600;
+}
+#edu h2{
+	color:#FF5050;
+}
+#contact h2{
+	color:#6600CC;
+}
+ a:visited  { color: #fff; }
+ a:hover,a:focus { color: #F06000; }
+.carousel,
+.item,
+.active {
+    height: 100%;
+}
+ .profile-pic {
+   position: relative;
+   width: 150px;
+   height: 150px;
+   border-radius: 100%;
+}
+.contact-details { width: 41.66667%; }
+.carousel-inner {
+    height: 100%;
+}
+
+/* Background images are set within the HTML using inline CSS, not here */
+
+.fill {
+    width: 100%;
+    height: 100%;
+    background-position: center;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    background-size: cover;
+    -o-background-size: cover;
+}
+
+footer {
+    margin: 50px 0;
+}
+#edu
+{
+	background-color:#FFFF99;
+	padding-left:40px;
+	color:#CC3300;
+}
+#contact
+{
+	background-color:#FF9999;
+	padding-left:40px;
+	color:#9900CC;
+}
+ul.social-buttons {
+    margin-bottom: 0;
+}
+
+ul.social-buttons li a {
+    display: block;
+    width: 40px;
+    height: 40px;
+    border-radius: 100%;
+    font-size: 20px;
+    line-height: 40px;
+    outline: 0;
+    color: #00FFFF;
+    background-color: #00CCFF;
+    -webkit-transition: all .3s;
+    -moz-transition: all .3s;
+    transition: all .3s;
+}
+
+ul.social-buttons li a:hover,
+ul.social-buttons li a:focus,
+ul.social-buttons li a:active {
+    background-color: #fed136;
+}
+.item{
+ height: 400px;
+ width: 100%;
+ overflow: hidden;
+}
+.item img {
+ height: 400px;
+ width: 100%;
+}
+.navbar {
+  
+    background-color: #000066;
+    background-image: none;
+}

@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html ng-app="app" ng-init="subs=['Data structures','Algorithms']">
+<head>
+	<meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="">
+    <meta name="author" content="">
+	<script src="js/angular.min.js"></script>
+<!-- Bootstrap Core CSS -->
+	<title>Mangalashri</title>
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+
+    <!-- Custom CSS -->
+    <link href="css/mysite.css" rel="stylesheet">
+	<link rel="shortcut icon" href="images/mypic.jpg" >
+	<script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.0.7/angular.min.js"></script>
+	<link href="font-awesome/css/font-awesome.min.css" rel="stylesheet" type="text/css">
+	<!--Load Bootstrap css-->
+    <link href="//maxcdn.bootstrapcdn.com/bootstrap/3.3.0/css/bootstrap.min.css" rel="stylesheet">
+    <!--load font awesome-->
+    <link href="//maxcdn.bootstrapcdn.com/font-awesome/4.2.0/css/font-awesome.min.css" rel="stylesheet">
+    
+</head>
+
+<body>
+
+<div>
+ 	<div ng-include="'partials/navigation.html'">
+	</div>
+	<div ng-include="'partials/carousel.html'">
+	</div>
+	<div ng-include="'partials/about.html'">
+	</div>
+	<div ng-include="'partials/edu.html'">
+	</div>
+	<div ng-include="'partials/contact.html'">
+	</div>
+	<hr>
+	<div ng-include="'partials/footer.html'">
+	</div>
+	
+</div>
+<!-- jQuery -->
+    <script src="js/jquery.js"></script>
+
+    <!-- Bootstrap Core JavaScript -->
+    <script src="js/bootstrap.min.js"></script>
+
+    <!-- Script to Activate the Carousel -->
+    <script>
+    $('#carousel').carousel();
+    </script>
+</body>
+<script src="app/app.js"></script>
+</html>
